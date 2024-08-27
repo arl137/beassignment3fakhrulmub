@@ -26,3 +26,13 @@ exports.show = async (req, res) => {
     });
   }
 };
+
+exports.create = async (req, res) => {
+  try {
+    const todo = await Todo.create(req.body);
+    res.status(201).json(todo);
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ error: error.message });
+  }
+};

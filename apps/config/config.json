@@ -1,16 +1,18 @@
 {
   "development": {
     "username": "postgres",
-    "password": "postgres",
+    "password": "AMcMlunHgltkSeKzWsQkeiddCcUUvKOS",
     "database": "todo_app",
-    "host": "127.0.0.1",
+    "host": "junction.proxy.rlwy.net",
+    "port": "39001",
     "dialect": "postgres"
   },
   "test": {
     "username": "postgres",
-    "password": "postgres",
+    "password": "AMcMlunHgltkSeKzWsQkeiddCcUUvKOS",
     "database": "todo_app_test",
-    "host": "127.0.0.1",
+    "host": "junction.proxy.rlwy.net",
+    "port": "39001",
     "dialect": "postgres",
     "logging": false
   },
