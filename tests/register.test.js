@@ -7,12 +7,12 @@ describe('POST /register', () => {
     const res = await request(app)
       .post('/register')
       .send({
-        email: 'regis_user@gmail.com',
+        email: 'testing@gmail.com',
         password: 'password123'
       });
 
     expect(res.statusCode).toBe(201);
-    expect(res.body.email).toBe("regis_user@gmail.com");
+    expect(res.body.email).toBe("testing@gmail.com");
   });
 
 });

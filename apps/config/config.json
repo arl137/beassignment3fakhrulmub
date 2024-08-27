@@ -1,26 +1,26 @@
 {
   "development": {
-    "username": "postgres",
-    "password": "AMcMlunHgltkSeKzWsQkeiddCcUUvKOS",
-    "database": "todo_app",
-    "host": "junction.proxy.rlwy.net",
-    "port": "39001",
+    "username": "neondb_owner",
+    "password": "rHOD8Cq4xUgt",
+    "database": "neondb",
+    "host": "ep-withered-night-a5vnvg7z.us-east-2.aws.neon.tech",
+    "port": "5432",
     "dialect": "postgres"
   },
   "test": {
-    "username": "postgres",
-    "password": "AMcMlunHgltkSeKzWsQkeiddCcUUvKOS",
-    "database": "todo_app_test",
-    "host": "junction.proxy.rlwy.net",
-    "port": "39001",
-    "dialect": "postgres",
-    "logging": false
+    "username": "neondb_owner",
+    "password": "rHOD8Cq4xUgt",
+    "database": "neondb",
+    "host": "ep-withered-night-a5vnvg7z.us-east-2.aws.neon.tech",
+    "port": "5432",
+    "dialect": "postgres"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "neondb_owner",
+    "password": "rHOD8Cq4xUgt",
+    "database": "neondb",
+    "host": "ep-withered-night-a5vnvg7z.us-east-2.aws.neon.tech",
+    "port": "5432",
+    "dialect": "postgres"
   }
 }

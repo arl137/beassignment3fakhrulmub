@@ -8,8 +8,8 @@ let todos;
 beforeAll(async () => {
   try {
     user = await User.create({
-      email: "test@mail.com",
-      password: "rahasia",
+      email: "testing@mail.com",
+      password: "password123",
     });
 
     todos = await Todo.bulkCreate([
